@@ -1,6 +1,8 @@
 ########################################
 #Password Generator 
 ########################################
+
+
 import random
 import string
 import os 
@@ -18,8 +20,7 @@ settings = {
 
 
 
-def get_password(v,MAX_LENGTH = 15,MIN_LENGTH = 5):
-    
+def get_password(v,MAX_LENGTH = 15,MIN_LENGTH = 5):  
     while True:
         user_input_password = input("Enter password {v} : ")
         
