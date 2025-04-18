@@ -146,6 +146,7 @@ def run():
     os.system('cls')
     print("*" * 20)
     multi_password_gen()
+    print("*" * 20)
 
 
 run()
